@@ -1,0 +1,5 @@
+# Ignorar archivos generados por ANTLR que no son necesarios en el repo
+*.tokens
+*.interp
+__pycache__/
+.vscode/
