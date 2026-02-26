@@ -1,0 +1,151 @@
+[
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "antlr4",
+        "description": "antlr4",
+        "isExtraImport": true,
+        "detail": "antlr4",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "antlr4",
+        "description": "antlr4",
+        "isExtraImport": true,
+        "detail": "antlr4",
+        "documentation": {}
+    },
+    {
+        "label": "RustLite",
+        "importPath": "RustLite",
+        "description": "RustLite",
+        "isExtraImport": true,
+        "detail": "RustLite",
+        "documentation": {}
+    },
+    {
+        "label": "StringIO",
+        "importPath": "io",
+        "description": "io",
+        "isExtraImport": true,
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "visualizar_ast",
+        "kind": 2,
+        "importPath": "AST.main",
+        "description": "AST.main",
+        "peekOfCode": "def visualizar_ast(codigo):\n    # Generamos el árbol a partir del string de código\n    arbol = ast.parse(codigo)\n    print(f\"Estructura del código: '{codigo}'\")\n    for nodo in ast.walk(arbol):\n        # Imprimimos el tipo de nodo y sus campos\n        print(f\"Nodo encontrado: {type(nodo).__name__}\")\n        if isinstance(nodo, ast.Name):\n            print(f\"  -> Variable: {nodo.id}\")\n        elif isinstance(nodo, ast.Constant):",
+        "detail": "AST.main",
+        "documentation": {}
+    },
+    {
+        "label": "ejemplo_entrada",
+        "kind": 5,
+        "importPath": "AST.main",
+        "description": "AST.main",
+        "peekOfCode": "ejemplo_entrada = \"resultado = x + 10\"\nvisualizar_ast(ejemplo_entrada)",
+        "detail": "AST.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Lexer.main",
+        "description": "Lexer.main",
+        "peekOfCode": "def main():\n    codigo_fuente = \"\"\"\n    fn main() {\n        let mut x: i32 = 10;\n        let y: i32 = x + 5;\n        //Mira que estamos haciendo\n        return y;\n    }\n    \"\"\"\n    print(\"--- Iniciando Análisis Léxico ---\")",
+        "detail": "Lexer.main",
+        "documentation": {}
+    },
+    {
+        "label": "RustLite",
+        "kind": 6,
+        "importPath": "Lexer.RustLite",
+        "description": "Lexer.RustLite",
+        "peekOfCode": "class RustLite(Lexer):\n    atn = ATNDeserializer().deserialize(serializedATN())\n    decisionsToDFA = [ DFA(ds, i) for i, ds in enumerate(atn.decisionToState) ]\n    FN = 1\n    LET = 2\n    MUT = 3\n    RETURN = 4\n    IF = 5\n    ELSE = 6\n    PRINT = 7",
+        "detail": "Lexer.RustLite",
+        "documentation": {}
+    },
+    {
+        "label": "serializedATN",
+        "kind": 2,
+        "importPath": "Lexer.RustLite",
+        "description": "Lexer.RustLite",
+        "peekOfCode": "def serializedATN():\n    return [\n        4,0,26,154,6,-1,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,\n        2,6,7,6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,\n        13,7,13,2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,\n        19,2,20,7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,1,\n        0,1,0,1,0,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,3,1,3,1,3,1,3,1,3,1,\n        3,1,3,1,4,1,4,1,4,1,5,1,5,1,5,1,5,1,5,1,6,1,6,1,6,1,6,1,6,1,6,1,\n        6,1,6,1,6,1,7,1,7,1,7,1,7,1,8,1,8,1,8,1,8,1,8,1,9,1,9,1,9,1,10,1,\n        10,1,11,1,11,1,12,1,12,1,13,1,13,1,14,1,14,1,15,1,15,1,16,1,16,1,",
+        "detail": "Lexer.RustLite",
+        "documentation": {}
+    },
+    {
+        "label": "AnalizadorLL",
+        "kind": 6,
+        "importPath": "LL.main",
+        "description": "LL.main",
+        "peekOfCode": "class AnalizadorLL:\n    def __init__(self, tokens):\n        self.tokens = tokens\n        self.pos = 0\n    def actual(self):\n        return self.tokens[self.pos] if self.pos < len(self.tokens) else None\n    def consumir(self, esperado):\n        if self.actual() == esperado:\n            print(f\"Consumiendo: {esperado}\")\n            self.pos += 1",
+        "detail": "LL.main",
+        "documentation": {}
+    },
+    {
+        "label": "tokens_de_entrada",
+        "kind": 5,
+        "importPath": "LL.main",
+        "description": "LL.main",
+        "peekOfCode": "tokens_de_entrada = ['IF', 'LPAREN', 'VARIABLE', 'RPAREN', 'PRINT']\nparser = AnalizadorLL(tokens_de_entrada)\nparser.parse_if()",
+        "detail": "LL.main",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "LL.main",
+        "description": "LL.main",
+        "peekOfCode": "parser = AnalizadorLL(tokens_de_entrada)\nparser.parse_if()",
+        "detail": "LL.main",
+        "documentation": {}
+    },
+    {
+        "label": "ParserLR",
+        "kind": 6,
+        "importPath": "LR.main",
+        "description": "LR.main",
+        "peekOfCode": "class ParserLR:\n    def __init__(self):\n        # Definimos nuestras \"Reglas de Producción\" (Gramática)\n        self.reglas = {\n            ('ID', '=', 'NUM'): 'SENTENCIA_ASIGNACION',\n            ('ID', '=', 'ID'): 'SENTENCIA_ASIGNACION',\n            ('SENTENCIA_ASIGNACION', ';'): 'PROGRAMA'\n        }\n    def analizar(self, tokens):\n        pila = []",
+        "detail": "LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "tokens_ejemplo",
+        "kind": 5,
+        "importPath": "LR.main",
+        "description": "LR.main",
+        "peekOfCode": "tokens_ejemplo = ['ID', '=', 'NUM', ';']\nparser = ParserLR()\nparser.analizar(tokens_ejemplo)",
+        "detail": "LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "LR.main",
+        "description": "LR.main",
+        "peekOfCode": "parser = ParserLR()\nparser.analizar(tokens_ejemplo)",
+        "detail": "LR.main",
+        "documentation": {}
+    }
+]

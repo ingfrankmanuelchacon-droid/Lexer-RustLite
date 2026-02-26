@@ -1,10 +1,10 @@
 import sys
 from antlr4 import *
-from RustLite import RustLite  # Importa el lexer generado
+from RustLite import RustLite  # 
 
 
 def main():
-    # Código de prueba (simulando un archivo de Rust)
+
     codigo_fuente = """
     fn main() {
         let mut x: i32 = 10;
