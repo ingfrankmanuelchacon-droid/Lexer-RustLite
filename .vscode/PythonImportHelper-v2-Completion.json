@@ -9,6 +9,23 @@
         "documentation": {}
     },
     {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "DockerLexer",
+        "importPath": "lexer_docker",
+        "description": "lexer_docker",
+        "isExtraImport": true,
+        "detail": "lexer_docker",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -65,6 +82,33 @@
         "description": "AST.main",
         "peekOfCode": "ejemplo_entrada = \"resultado = x + 10\"\nvisualizar_ast(ejemplo_entrada)",
         "detail": "AST.main",
+        "documentation": {}
+    },
+    {
+        "label": "DockerLexer",
+        "kind": 6,
+        "importPath": "EJERCICIO_2.lexer_docker",
+        "description": "EJERCICIO_2.lexer_docker",
+        "peekOfCode": "class DockerLexer:\n    def __init__(self):\n        # Definición de patrones (Token Name, Regex)\n        self.token_specification = [\n            ('COMMENT',     r'#.*'),\n            ('INSTRUCTION', r'\\b(FROM|RUN|CMD|LABEL|EXPOSE|ENV|ADD|COPY|ENTRYPOINT|VOLUME|USER|WORKDIR|ARG|STOPSIGNAL|HEALTHCHECK|SHELL)\\b'), # Palabras clave\n            ('ARGUMENT',    r'(?<=\\s).+'),\n            ('NEWLINE',     r'\\n'),\n            ('SKIP',        r'[ \\t]+'),\n            ('MISMATCH',    r'.'),    ",
+        "detail": "EJERCICIO_2.lexer_docker",
+        "documentation": {}
+    },
+    {
+        "label": "lexer",
+        "kind": 5,
+        "importPath": "EJERCICIO_2.lexer_docker",
+        "description": "EJERCICIO_2.lexer_docker",
+        "peekOfCode": "lexer = DockerLexer()",
+        "detail": "EJERCICIO_2.lexer_docker",
+        "documentation": {}
+    },
+    {
+        "label": "ejecutar_pruebas",
+        "kind": 2,
+        "importPath": "EJERCICIO_2.main",
+        "description": "EJERCICIO_2.main",
+        "peekOfCode": "def ejecutar_pruebas():\n    lexer = DockerLexer()\n    casos_de_prueba = [\n        {\n            \"nombre\": \"CASO 1: Dockerfile Básico (Node.js)\",\n            \"contenido\": \"\"\"\nFROM node:18\nWORKDIR /app\nCOPY . .\nRUN npm install",
+        "detail": "EJERCICIO_2.main",
         "documentation": {}
     },
     {
