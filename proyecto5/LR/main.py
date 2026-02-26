@@ -42,7 +42,6 @@ class ParserLR:
 
         # Verificación final
         if pila == ['PROGRAMA'] or pila == ['SENTENCIA_ASIGNACION']:
-            print("-" * 60)
             print("RESULTADO: Cadena aceptada exitosamente.")
         else:
             print("-" * 60)
