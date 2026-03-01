@@ -1,0 +1,515 @@
+[
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_KEYWORD",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_IDENT",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_NUMBER",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_OPERATOR",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_PAREN",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_SEMICOLON",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_WHITESPACE",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_STRING",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_UNKNOWN",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_KEYWORD",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_IDENT",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_NUMBER",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_OPERATOR",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_PAREN",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_SEMICOLON",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_STRING",
+        "importPath": "token",
+        "description": "token",
+        "isExtraImport": true,
+        "detail": "token",
+        "documentation": {}
+    },
+    {
+        "label": "confidence",
+        "importPath": "levenshtein",
+        "description": "levenshtein",
+        "isExtraImport": true,
+        "detail": "levenshtein",
+        "documentation": {}
+    },
+    {
+        "label": "Parser",
+        "importPath": "parser",
+        "description": "parser",
+        "isExtraImport": true,
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "Lexer",
+        "importPath": "lexer",
+        "description": "lexer",
+        "isExtraImport": true,
+        "detail": "lexer",
+        "documentation": {}
+    },
+    {
+        "label": "AssignNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "PrintNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "IfNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "BinOpNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "NumberNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "IdentNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "StringNode",
+        "importPath": "ast_nodes",
+        "description": "ast_nodes",
+        "isExtraImport": true,
+        "detail": "ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "visualizar_ast",
+        "kind": 2,
+        "importPath": "AST.main",
+        "description": "AST.main",
+        "peekOfCode": "def visualizar_ast(codigo):\n    # Generamos el árbol a partir del string de código\n    arbol = ast.parse(codigo)\n    print(f\"Estructura del código: '{codigo}'\")\n    for nodo in ast.walk(arbol):\n        # Imprimimos el tipo de nodo y sus campos\n        print(f\"Nodo encontrado: {type(nodo).__name__}\")\n        if isinstance(nodo, ast.Name):\n            print(f\"  -> Variable: {nodo.id}\")\n        elif isinstance(nodo, ast.Constant):",
+        "detail": "AST.main",
+        "documentation": {}
+    },
+    {
+        "label": "ejemplo_entrada",
+        "kind": 5,
+        "importPath": "AST.main",
+        "description": "AST.main",
+        "peekOfCode": "ejemplo_entrada = \"resultado = x + 10\"\nvisualizar_ast(ejemplo_entrada)",
+        "detail": "AST.main",
+        "documentation": {}
+    },
+    {
+        "label": "ASTNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class ASTNode:\n    pass\nclass AssignNode(ASTNode):\n    def __init__(self, ident, expr):\n        self.ident = ident\n        self.expr = expr\nclass PrintNode(ASTNode):\n    def __init__(self, expr):\n        self.expr = expr\nclass IfNode(ASTNode):",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "AssignNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class AssignNode(ASTNode):\n    def __init__(self, ident, expr):\n        self.ident = ident\n        self.expr = expr\nclass PrintNode(ASTNode):\n    def __init__(self, expr):\n        self.expr = expr\nclass IfNode(ASTNode):\n    def __init__(self, cond, then_stmt, else_stmt=None):\n        self.cond = cond",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "PrintNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class PrintNode(ASTNode):\n    def __init__(self, expr):\n        self.expr = expr\nclass IfNode(ASTNode):\n    def __init__(self, cond, then_stmt, else_stmt=None):\n        self.cond = cond\n        self.then_stmt = then_stmt\n        self.else_stmt = else_stmt\nclass BinOpNode(ASTNode):\n    def __init__(self, left, op, right):",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "IfNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class IfNode(ASTNode):\n    def __init__(self, cond, then_stmt, else_stmt=None):\n        self.cond = cond\n        self.then_stmt = then_stmt\n        self.else_stmt = else_stmt\nclass BinOpNode(ASTNode):\n    def __init__(self, left, op, right):\n        self.left = left\n        self.op = op\n        self.right = right",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "BinOpNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class BinOpNode(ASTNode):\n    def __init__(self, left, op, right):\n        self.left = left\n        self.op = op\n        self.right = right\nclass NumberNode(ASTNode):\n    def __init__(self, value):\n        self.value = value\nclass IdentNode(ASTNode):\n    def __init__(self, name):",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "NumberNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class NumberNode(ASTNode):\n    def __init__(self, value):\n        self.value = value\nclass IdentNode(ASTNode):\n    def __init__(self, name):\n        self.name = name\nclass StringNode(ASTNode):\n    def __init__(self, value):\n        self.value = value",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "IdentNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class IdentNode(ASTNode):\n    def __init__(self, name):\n        self.name = name\nclass StringNode(ASTNode):\n    def __init__(self, value):\n        self.value = value",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "StringNode",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "description": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "peekOfCode": "class StringNode(ASTNode):\n    def __init__(self, value):\n        self.value = value",
+        "detail": "COMPILERS_THEME_5.ACT_5.ast_nodes",
+        "documentation": {}
+    },
+    {
+        "label": "levenshtein_dist",
+        "kind": 2,
+        "importPath": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "description": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "peekOfCode": "def levenshtein_dist(s1, s2):\n    m, n = len(s1), len(s2)\n    dp = [[0] * (n + 1) for _ in range(m + 1)]\n    for i in range(m + 1):\n        dp[i][0] = i\n    for j in range(n + 1):\n        dp[0][j] = j\n    for i in range(1, m + 1):\n        for j in range(1, n + 1):\n            if s1[i - 1] == s2[j - 1]:",
+        "detail": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "documentation": {}
+    },
+    {
+        "label": "confidence",
+        "kind": 2,
+        "importPath": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "description": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "peekOfCode": "def confidence(s1, s2):\n    dist = levenshtein_dist(s1, s2)\n    max_len = max(len(s1), len(s2))\n    if max_len == 0:\n        return 1.0\n    return 1 - (dist / max_len)",
+        "detail": "COMPILERS_THEME_5.ACT_5.levenshtein",
+        "documentation": {}
+    },
+    {
+        "label": "Lexer",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.lexer",
+        "description": "COMPILERS_THEME_5.ACT_5.lexer",
+        "peekOfCode": "class Lexer:\n    keywords = {\"if\", \"else\", \"print\"}\n    token_specs = [\n        (TT_KEYWORD, r\"if|else|print\"),\n        (TT_IDENT, r\"[a-zA-Z_][a-zA-Z0-9_]*\"),\n        (TT_NUMBER, r\"\\d+\"),\n        (TT_OPERATOR, r\"[=><]\"),\n        (TT_PAREN, r\"[()]\"),\n        (TT_SEMICOLON, r\";\"),\n        (TT_STRING, r'\"[^\"]*\"'),",
+        "detail": "COMPILERS_THEME_5.ACT_5.lexer",
+        "documentation": {}
+    },
+    {
+        "label": "imprimir_ast",
+        "kind": 2,
+        "importPath": "COMPILERS_THEME_5.ACT_5.main",
+        "description": "COMPILERS_THEME_5.ACT_5.main",
+        "peekOfCode": "def imprimir_ast(nodos, nivel=0):\n    if not isinstance(nodos, list):\n        nodos = [nodos]\n    for nodo in nodos:\n        print(\"  \" * nivel + str(type(nodo).__name__))\n        if hasattr(nodo, \"ident\"):\n            print(\"  \" * (nivel + 1) + f\"ident: {nodo.ident}\")\n            imprimir_ast(nodo.expr, nivel + 2)\n        elif hasattr(nodo, \"expr\") and not hasattr(nodo, \"cond\"):\n            # PrintNode",
+        "detail": "COMPILERS_THEME_5.ACT_5.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "COMPILERS_THEME_5.ACT_5.main",
+        "description": "COMPILERS_THEME_5.ACT_5.main",
+        "peekOfCode": "def main():\n    code = 'pront x = 5; if x > 3 prnt(x) else prnt(\"no\")'\n    lexer = Lexer()\n    tokens, sugerencias_lex = lexer.get_tokens(code)\n    print(\"=\" * 50)\n    print(\"TOKENS CORREGIDOS\")\n    print(\"=\" * 50)\n    for tok in tokens:\n        print(tok)\n    print(\"\\n\" + \"=\" * 50)",
+        "detail": "COMPILERS_THEME_5.ACT_5.main",
+        "documentation": {}
+    },
+    {
+        "label": "Parser",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.parser",
+        "description": "COMPILERS_THEME_5.ACT_5.parser",
+        "peekOfCode": "class Parser:\n    def __init__(self, tokens):\n        self.tokens = tokens\n        self.pos = 0\n        self.current_token = self.tokens[self.pos] if tokens else None\n        self.sugerencias_sintacticas = []\n    def next_token(self):\n        self.pos += 1\n        if self.pos < len(self.tokens):\n            self.current_token = self.tokens[self.pos]",
+        "detail": "COMPILERS_THEME_5.ACT_5.parser",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "class Token:\n    def __init__(self, tipo, valor, linea, columna):\n        self.tipo = tipo\n        self.valor = valor\n        self.linea = linea\n        self.columna = columna\n    def __repr__(self):\n        return f\"Token({self.tipo}, {self.valor}, {self.linea}, {self.columna})\"\n# Tipos de token\nTT_KEYWORD = \"KEYWORD\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_KEYWORD",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_KEYWORD = \"KEYWORD\"\nTT_IDENT = \"IDENT\"\nTT_NUMBER = \"NUMBER\"\nTT_OPERATOR = \"OPERATOR\"\nTT_PAREN = \"PAREN\"\nTT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_IDENT",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_IDENT = \"IDENT\"\nTT_NUMBER = \"NUMBER\"\nTT_OPERATOR = \"OPERATOR\"\nTT_PAREN = \"PAREN\"\nTT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_NUMBER",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_NUMBER = \"NUMBER\"\nTT_OPERATOR = \"OPERATOR\"\nTT_PAREN = \"PAREN\"\nTT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_OPERATOR",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_OPERATOR = \"OPERATOR\"\nTT_PAREN = \"PAREN\"\nTT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_PAREN",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_PAREN = \"PAREN\"\nTT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_SEMICOLON",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_SEMICOLON = \"SEMICOLON\"\nTT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_WHITESPACE",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_WHITESPACE = \"WHITESPACE\"\nTT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_STRING",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_STRING = \"STRING\"\nTT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "TT_UNKNOWN",
+        "kind": 5,
+        "importPath": "COMPILERS_THEME_5.ACT_5.token",
+        "description": "COMPILERS_THEME_5.ACT_5.token",
+        "peekOfCode": "TT_UNKNOWN = \"UNKNOWN\"",
+        "detail": "COMPILERS_THEME_5.ACT_5.token",
+        "documentation": {}
+    },
+    {
+        "label": "AnalizadorLL",
+        "kind": 6,
+        "importPath": "LL$LR.main",
+        "description": "LL$LR.main",
+        "peekOfCode": "class AnalizadorLL:\n    def __init__(self, tokens):\n        self.tokens = tokens\n        self.pos = 0\n    def actual(self):\n        return self.tokens[self.pos] if self.pos < len(self.tokens) else None\n    def coincidir(self, esperado):\n        if self.actual() == esperado:\n            self.pos += 1\n        else:",
+        "detail": "LL$LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "AnalizadorLR",
+        "kind": 6,
+        "importPath": "LL$LR.main",
+        "description": "LL$LR.main",
+        "peekOfCode": "class AnalizadorLR:\n    def __init__(self, tokens):\n        self.tokens = list(tokens)\n        self.pila = []\n    def analizar(self):\n        while len(self.tokens) > 0 or len(self.pila) > 1:\n            # Intentar reducir primero\n            # Regla 1: E -> E + id\n            if len(self.pila) >= 3 and self.pila[-3:] == ['E', '+', 'id']:\n                self.pila[-3:] = ['E']",
+        "detail": "LL$LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "tokens_entrada",
+        "kind": 5,
+        "importPath": "LL$LR.main",
+        "description": "LL$LR.main",
+        "peekOfCode": "tokens_entrada = ['id', '+', 'id']\n# ==========================================\nprint(\"--- 1. ANALIZADOR LL (Descenso Recursivo) ---\")\nclass AnalizadorLL:\n    def __init__(self, tokens):\n        self.tokens = tokens\n        self.pos = 0\n    def actual(self):\n        return self.tokens[self.pos] if self.pos < len(self.tokens) else None\n    def coincidir(self, esperado):",
+        "detail": "LL$LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "parser_ll",
+        "kind": 5,
+        "importPath": "LL$LR.main",
+        "description": "LL$LR.main",
+        "peekOfCode": "parser_ll = AnalizadorLL(tokens_entrada)\nparser_ll.analizar()\nprint(\"\\n--- 2. ANALIZADOR LR (Shift-Reduce) ---\")\nclass AnalizadorLR:\n    def __init__(self, tokens):\n        self.tokens = list(tokens)\n        self.pila = []\n    def analizar(self):\n        while len(self.tokens) > 0 or len(self.pila) > 1:\n            # Intentar reducir primero",
+        "detail": "LL$LR.main",
+        "documentation": {}
+    },
+    {
+        "label": "parser_lr",
+        "kind": 5,
+        "importPath": "LL$LR.main",
+        "description": "LL$LR.main",
+        "peekOfCode": "parser_lr = AnalizadorLR(tokens_entrada)\nparser_lr.analizar()",
+        "detail": "LL$LR.main",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "visualizar_ast",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def visualizar_ast(codigo):\n    # Generamos el árbol a partir del string de código\n    arbol = ast.parse(codigo)\n    print(f\"Estructura del código: '{codigo}'\")\n    for nodo in ast.walk(arbol):\n        # Imprimimos el tipo de nodo y sus campos\n        print(f\"Nodo encontrado: {type(nodo).__name__}\")\n        if isinstance(nodo, ast.Name):\n            print(f\"  -> Variable: {nodo.id}\")\n        elif isinstance(nodo, ast.Constant):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ejemplo_entrada",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ejemplo_entrada = \"resultado = x + 10\"\nvisualizar_ast(ejemplo_entrada)",
+        "detail": "main",
+        "documentation": {}
+    }
+]
